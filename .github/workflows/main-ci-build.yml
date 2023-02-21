@@ -14,9 +14,9 @@ jobs:
   build:
     strategy:
        matrix:
-         os: [ubuntu-latest]
+         os: [windows-latest]
          include:
-          - os: ubuntu-latest
+          - os: windows-latest
             windows: true
     runs-on: ${{ matrix.os }}
 
